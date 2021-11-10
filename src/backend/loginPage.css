@@ -1,0 +1,19 @@
+.LoginPage {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.logintable {
+    width: 300px;
+    height: 200px;
+    align-items: center;
+    color: antiquewhite;
+}
+
+.emptyusername {
+    display: none;
+}
+
+.emptypassword {
+    display: none;
+}
