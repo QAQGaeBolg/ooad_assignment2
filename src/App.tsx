@@ -1,6 +1,9 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import RouteList from './route/routeList';
 
+/**
 function App() {
   return (
     <div className="App">
@@ -20,6 +23,15 @@ function App() {
       </header>
     </div>
   );
+}
+ */
+
+class App extends React.Component { 
+    render() {
+        return (
+            <RouteList/>
+        )
+    }
 }
 
 export default App;

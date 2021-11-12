@@ -1,0 +1,58 @@
+.Register {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    background-color: rgb(34, 228, 241);
+}
+
+.registerTable{
+    width: 600px;
+    height: 200px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: beige;
+    color: blue;
+    border: 2px solid #F00;
+}
+
+.registerTable td{
+    width: 150px;
+    height: 40px;
+    border: 2px solid #F00;
+}
+
+.emptyUsername {
+    display: none;
+}
+
+.emptyPassword {
+    display: none;
+}
+
+.differentPassword {
+    display: none;
+}
+
+.registerButton {
+    text-align: center;
+}
+
+.registerButtonTd {
+    width: 100;
+}
+
+.registerLinkTd {
+    width: 200;
+}
+
+.inputText {
+    width: 150px;
+}
+
+.inputTd {
+    text-align: right;
+    width: 450;
+}

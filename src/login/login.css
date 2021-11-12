@@ -1,0 +1,44 @@
+.Login {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    background-color: aqua;
+}
+
+.loginTable {
+    width: 480px;
+    height: 160px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: antiquewhite;
+    border: 2px solid #F00;
+}
+
+.loginTable td{
+    width: 120px;
+    height: 40px;
+    border: 2px solid #F00;
+}
+
+.emptyUsername {
+    display: none;
+}
+
+.emptyPassword {
+    display: none;
+}
+
+.loginButton {
+    text-align: center;
+}
+
+.inputText {
+    width: 150px;
+}
+
+.inputTd {
+    text-align: right;
+}
